@@ -1,140 +1,145 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\.6bcf90db61050e87947c8eef8f61c8558e210a48-audit.json",
-  "files": [
-    {
-      "date": 1693719569321,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-03-09-11-success.log",
-      "hash": "85db4bce18bc5ba1fddb34bc378d489f6b1c6cb6b0895ce81e9ffedb0f8e3bb9"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1693810156066,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-04-09-12-success.log",
-      "hash": "0b97f2c609f5cfe97e80e8627dc6adabc21dfae8696237bcdfd7fc3765db2707"
-    },
-    {
-      "date": 1693817345835,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-04-09-14-success.log",
-      "hash": "79d6a2cf73530fd30cb12e61f5ac43f207bcdae8a090d217d1ee6614e5a039f3"
-    },
-    {
-      "date": 1693837418720,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-04-09-20-success.log",
-      "hash": "36158cc14cafe552919f5529d005f8203a89a364ac4868b0eca0ecbdca502657"
-    },
-    {
-      "date": 1694494267636,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-12-09-10-success.log",
-      "hash": "0f79d34095f4f2deeff35e415f1b741bc28ebe0e7c311ce362ac2e0ebdb7df6f"
-    },
-    {
-      "date": 1694503388213,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-12-09-13-success.log",
-      "hash": "0aa47d4af5dc2eefaf2a722715e1639e749764e9ec070384b1cd5c758a607ac8"
-    },
-    {
-      "date": 1694510075725,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-12-09-15-success.log",
-      "hash": "b0664afd5d6e7f34fa46b1133d6832dbe6c04c11f47884a25e0f71ee64926699"
-    },
-    {
-      "date": 1694530562832,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-12-09-20-success.log",
-      "hash": "a4ff3c341fb5e83943014ddfdac17eaade559654e92c1d94e326de41c0711e6e"
-    },
-    {
-      "date": 1694530800367,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-12-09-21-success.log",
-      "hash": "fee600baaead17513897c18a1c6877ebf84baa29631072e6440a14d79ba7d7f7"
-    },
-    {
-      "date": 1694579533127,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-13-09-10-success.log",
-      "hash": "ba87d35f6e7b0e643f9d842268a96bfd2bded8340f6916f85bc2622f9ea32fa2"
-    },
-    {
-      "date": 1694581402788,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-13-09-11-success.log",
-      "hash": "caba60d3501552b27ce99fc80c37063774b6673513b4f7e699dc33056e88d635"
-    },
-    {
-      "date": 1694602041877,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-13-09-16-success.log",
-      "hash": "85dfeab8cba43d82c23b162fce88ede7f57c4b67b55b0d2d735f0f7e4edb6ac0"
-    },
-    {
-      "date": 1694604342573,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-13-09-17-success.log",
-      "hash": "e60d7f0ae905129d7c3f13682fc2d27a30147a21a20e304e44782cc4e0895859"
-    },
-    {
-      "date": 1694665782519,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-10-success.log",
-      "hash": "446281d84cdf80c791d8305849fbb3a87d84cef84953933f34bbe69b9c34abb8"
-    },
-    {
-      "date": 1694668162870,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-11-success.log",
-      "hash": "6af03791847b95c35eb4386ba50a413ba16983020331e496f985a88627522939"
-    },
-    {
-      "date": 1694674476421,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-12-success.log",
-      "hash": "6648fd4366e50b1d0e4bdf0a714afbf85a347ef997f78999fc450940fb3a0ca1"
-    },
-    {
-      "date": 1694676825454,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-13-success.log",
-      "hash": "0b68174460cf3b846f0449ee266a2a4f97b71d31d79e3a489141d830a56350e6"
-    },
-    {
-      "date": 1694678448850,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-14-success.log",
-      "hash": "8aebfc022285434afd0ce5bd4e57a69a8e3a28afa9c32e3d56d77526159b5f02"
-    },
-    {
-      "date": 1694691210252,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-17-success.log",
-      "hash": "ffee1a581999c03d38181194fcc1485c92f7b36dfe701beccb0ea6bf14ddc4eb"
-    },
-    {
-      "date": 1694696164008,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-18-success.log",
-      "hash": "1b8e795bd014e764690976a7620d3594b0324adab2cd8b2395b15c82f41e564d"
-    },
-    {
-      "date": 1694697564327,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-19-success.log",
-      "hash": "d61a0ebee58d02fd1559b17a7f5dec38bf0b23b8d7c0b71d7d5275f6e5141a4a"
-    },
-    {
-      "date": 1694700703218,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-20-success.log",
-      "hash": "b9bc7b42e432e5e4b386f7f0e416f4ffe3ea9e75f20084f5095a579349163d32"
-    },
-    {
-      "date": 1694749126923,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-15-09-09-success.log",
-      "hash": "60dec83ac418ec65b1a444a7b4d5da63968c1e29c1d8b005583d260002651b51"
-    },
-    {
-      "date": 1694751188481,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-15-09-10-success.log",
-      "hash": "b5486ee83d8dc3e051790139573db75a3366e52fd538c3693392df8aeccbad2c"
-    },
-    {
-      "date": 1694755005702,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-15-09-11-success.log",
-      "hash": "216fb805496691a2f7cb7de17bd26f043d619448f85fa170bb15f0e5542cc0a3"
-    },
-    {
-      "date": 1694757794274,
-      "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-15-09-12-success.log",
-      "hash": "85a9ff9ec1ed034ad9f117d3364f0b6a881a04aa10ad972036709e33afbd7870"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\.6bcf90db61050e87947c8eef8f61c8558e210a48-audit.json",
+    "files": [
+        {
+            "date": 1693719569321,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-03-09-11-success.log",
+            "hash": "85db4bce18bc5ba1fddb34bc378d489f6b1c6cb6b0895ce81e9ffedb0f8e3bb9"
+        },
+        {
+            "date": 1693810156066,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-04-09-12-success.log",
+            "hash": "0b97f2c609f5cfe97e80e8627dc6adabc21dfae8696237bcdfd7fc3765db2707"
+        },
+        {
+            "date": 1693817345835,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-04-09-14-success.log",
+            "hash": "79d6a2cf73530fd30cb12e61f5ac43f207bcdae8a090d217d1ee6614e5a039f3"
+        },
+        {
+            "date": 1693837418720,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-04-09-20-success.log",
+            "hash": "36158cc14cafe552919f5529d005f8203a89a364ac4868b0eca0ecbdca502657"
+        },
+        {
+            "date": 1694494267636,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-12-09-10-success.log",
+            "hash": "0f79d34095f4f2deeff35e415f1b741bc28ebe0e7c311ce362ac2e0ebdb7df6f"
+        },
+        {
+            "date": 1694503388213,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-12-09-13-success.log",
+            "hash": "0aa47d4af5dc2eefaf2a722715e1639e749764e9ec070384b1cd5c758a607ac8"
+        },
+        {
+            "date": 1694510075725,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-12-09-15-success.log",
+            "hash": "b0664afd5d6e7f34fa46b1133d6832dbe6c04c11f47884a25e0f71ee64926699"
+        },
+        {
+            "date": 1694530562832,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-12-09-20-success.log",
+            "hash": "a4ff3c341fb5e83943014ddfdac17eaade559654e92c1d94e326de41c0711e6e"
+        },
+        {
+            "date": 1694530800367,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-12-09-21-success.log",
+            "hash": "fee600baaead17513897c18a1c6877ebf84baa29631072e6440a14d79ba7d7f7"
+        },
+        {
+            "date": 1694579533127,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-13-09-10-success.log",
+            "hash": "ba87d35f6e7b0e643f9d842268a96bfd2bded8340f6916f85bc2622f9ea32fa2"
+        },
+        {
+            "date": 1694581402788,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-13-09-11-success.log",
+            "hash": "caba60d3501552b27ce99fc80c37063774b6673513b4f7e699dc33056e88d635"
+        },
+        {
+            "date": 1694602041877,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-13-09-16-success.log",
+            "hash": "85dfeab8cba43d82c23b162fce88ede7f57c4b67b55b0d2d735f0f7e4edb6ac0"
+        },
+        {
+            "date": 1694604342573,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-13-09-17-success.log",
+            "hash": "e60d7f0ae905129d7c3f13682fc2d27a30147a21a20e304e44782cc4e0895859"
+        },
+        {
+            "date": 1694665782519,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-10-success.log",
+            "hash": "446281d84cdf80c791d8305849fbb3a87d84cef84953933f34bbe69b9c34abb8"
+        },
+        {
+            "date": 1694668162870,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-11-success.log",
+            "hash": "6af03791847b95c35eb4386ba50a413ba16983020331e496f985a88627522939"
+        },
+        {
+            "date": 1694674476421,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-12-success.log",
+            "hash": "6648fd4366e50b1d0e4bdf0a714afbf85a347ef997f78999fc450940fb3a0ca1"
+        },
+        {
+            "date": 1694676825454,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-13-success.log",
+            "hash": "0b68174460cf3b846f0449ee266a2a4f97b71d31d79e3a489141d830a56350e6"
+        },
+        {
+            "date": 1694678448850,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-14-success.log",
+            "hash": "8aebfc022285434afd0ce5bd4e57a69a8e3a28afa9c32e3d56d77526159b5f02"
+        },
+        {
+            "date": 1694691210252,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-17-success.log",
+            "hash": "ffee1a581999c03d38181194fcc1485c92f7b36dfe701beccb0ea6bf14ddc4eb"
+        },
+        {
+            "date": 1694696164008,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-18-success.log",
+            "hash": "1b8e795bd014e764690976a7620d3594b0324adab2cd8b2395b15c82f41e564d"
+        },
+        {
+            "date": 1694697564327,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-19-success.log",
+            "hash": "d61a0ebee58d02fd1559b17a7f5dec38bf0b23b8d7c0b71d7d5275f6e5141a4a"
+        },
+        {
+            "date": 1694700703218,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-14-09-20-success.log",
+            "hash": "b9bc7b42e432e5e4b386f7f0e416f4ffe3ea9e75f20084f5095a579349163d32"
+        },
+        {
+            "date": 1694749126923,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-15-09-09-success.log",
+            "hash": "60dec83ac418ec65b1a444a7b4d5da63968c1e29c1d8b005583d260002651b51"
+        },
+        {
+            "date": 1694751188481,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-15-09-10-success.log",
+            "hash": "b5486ee83d8dc3e051790139573db75a3366e52fd538c3693392df8aeccbad2c"
+        },
+        {
+            "date": 1694755005702,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-15-09-11-success.log",
+            "hash": "216fb805496691a2f7cb7de17bd26f043d619448f85fa170bb15f0e5542cc0a3"
+        },
+        {
+            "date": 1694757794274,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-15-09-12-success.log",
+            "hash": "85a9ff9ec1ed034ad9f117d3364f0b6a881a04aa10ad972036709e33afbd7870"
+        },
+        {
+            "date": 1694766372739,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-15-09-14-success.log",
+            "hash": "8b7edb393813f8662fbef43db386058e0d5bdd1580bc4080bc63a2986ed71a05"
+        }
+    ],
+    "hashType": "sha256"
 }
