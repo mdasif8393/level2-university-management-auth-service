@@ -129,6 +129,11 @@
             "date": 1694755005707,
             "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-09-11-error.log",
             "hash": "a229373176c026fe0859cb13b028ffbaf0fcedad980a98e2515aab9ee24bfe83"
+        },
+        {
+            "date": 1694757794280,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-09-12-error.log",
+            "hash": "161527c6f5630811a858ebaf8a70e335831612d7e794f9931ea6eb781b23651c"
         }
     ],
     "hashType": "sha256"

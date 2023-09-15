@@ -1,4 +1,4 @@
-import { NextFunction, Request, Response } from 'express';
+import { Request, Response } from 'express';
 import { AcademicSemesterService } from './academicSemester.service';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
@@ -8,20 +8,17 @@ import pick from '../../../shared/pick';
 import { paginationFields } from '../../../constants/pagination';
 import { academicSemesterFilterableFields } from './academicSemester.constant';
 
-const createSemester = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
-    const { ...academicSemesterData } = req.body;
-    const result =
-      await AcademicSemesterService.createSemester(academicSemesterData);
-    sendResponse<IAcademicSemester>(res, {
-      statusCode: httpStatus.OK,
-      success: true,
-      message: 'Academic Semester created successfully!',
-      data: result,
-    });
-    next();
-  },
-);
+const createSemester = catchAsync(async (req: Request, res: Response) => {
+  const { ...academicSemesterData } = req.body;
+  const result =
+    await AcademicSemesterService.createSemester(academicSemesterData);
+  sendResponse<IAcademicSemester>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Academic Semester created successfully!',
+    data: result,
+  });
+});
 
 const getAllSemesters = catchAsync(async (req: Request, res: Response) => {
   // pick(req.query, paginationFields) means below codes
