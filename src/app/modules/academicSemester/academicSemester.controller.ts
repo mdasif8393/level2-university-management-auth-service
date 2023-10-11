@@ -21,13 +21,6 @@ const createSemester = catchAsync(async (req: Request, res: Response) => {
 });
 
 const getAllSemesters = catchAsync(async (req: Request, res: Response) => {
-  // pick(req.query, paginationFields) means below codes
-  // const paginationOptions = {
-  //   page: Number(req.query.page),
-  //   limit: Number(req.query.limit),
-  //   sortBy: req.query.sortBy,
-  //   sortOrder: req.query.sortOrder,
-  // };
   const filters = pick(req.query, academicSemesterFilterableFields);
 
   const paginationOptions = pick(req.query, paginationFields);

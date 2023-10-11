@@ -1,0 +1,22 @@
+Fri Oct 06 2023 17 45 57 [PH] error: globalErrorHandler ~~ [
+  {
+    "expected": "'Autumn' | 'Summer' | 'Fall'",
+    "received": "undefined",
+    "code": "invalid_type",
+    "path": [
+      "body",
+      "title"
+    ],
+    "message": "title is required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "number",
+    "path": [
+      "body",
+      "year"
+    ],
+    "message": "Expected string, received number"
+  }
+]

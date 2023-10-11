@@ -9,6 +9,7 @@ export type IGenericResponse<T> = {
   data: T;
 };
 
+//common error interface
 export type IGenericErrorResponse = {
   statusCode: number;
   message: string;

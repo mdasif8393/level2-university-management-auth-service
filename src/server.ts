@@ -22,7 +22,7 @@ async function bootstrap() {
   } catch (err) {
     errorlogger.error('Failed to connect database', err);
   }
-
+  //unhandledRejection Occur when a  Promise is Rejected
   process.on('unhandledRejection', error => {
     if (server) {
       server.close(() => {

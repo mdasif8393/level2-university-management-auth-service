@@ -33,27 +33,6 @@ const getAllSemesters = async (
   //search
   const { searchTerm, ...filtersData } = filters;
 
-  const andConditions = [];
-
-  if (searchTerm) {
-    andConditions.push({
-      $or: academicSemesterSearchableFields.map(field => ({
-        [field]: {
-          $regex: searchTerm,
-          $options: 'i',
-        },
-      })),
-    });
-  }
-
-  if (Object.keys(filtersData).length) {
-    andConditions.push({
-      $and: Object.entries(filtersData).map(([field, value]) => ({
-        [field]: value,
-      })),
-    });
-  }
-
   // const andConditions = [
 
   //   {
@@ -80,6 +59,28 @@ const getAllSemesters = async (
   //   },
   // ];
 
+  const andConditions = [];
+
+  if (searchTerm) {
+    andConditions.push({
+      $or: academicSemesterSearchableFields.map(field => ({
+        [field]: {
+          $regex: searchTerm,
+          $options: 'i',
+        },
+      })),
+    });
+  }
+
+  if (Object.keys(filtersData).length) {
+    andConditions.push({
+      $and: Object.entries(filtersData).map(([field, value]) => ({
+        [field]: value,
+      })),
+    });
+  }
+
+  //  get page, limit from paginationOptions
   const { page, limit, skip, sortBy, sortOrder } =
     paginationHelpers.calculatePagination(paginationOptions);
 
