@@ -6,11 +6,6 @@
     "auditLog": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\successes\\.a38d6a8c81f3c1b1008981f4327a17cf95a4743f-audit.json",
     "files": [
         {
-            "date": 1697858290220,
-            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-21-10-09-success.log",
-            "hash": "0b35be5fa258027df7cfb2ee5bc5d5e0add777c93c9b2ea5110b9f2c7d88caca"
-        },
-        {
             "date": 1697905096446,
             "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-21-10-22-success.log",
             "hash": "69343eb03073f761a0e6de11a9b7203d103fb910fa5f86706ece2043100854b2"
@@ -109,6 +104,11 @@
             "date": 1699062195396,
             "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-04-11-07-success.log",
             "hash": "14d1f48587773664b5a98b9721d78d0d6402ad06dd81ec5773081671239f8629"
+        },
+        {
+            "date": 1699068155535,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-04-11-09-success.log",
+            "hash": "4d93ed50f75e51d6904a08effe4cb2ea1dd7b1af417d10f6f77346c43befb898"
         }
     ],
     "hashType": "sha256"
