@@ -20,6 +20,7 @@ const createSemester = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+// Get All Semesters
 const getAllSemesters = catchAsync(async (req: Request, res: Response) => {
   const filters = pick(req.query, academicSemesterFilterableFields);
 
@@ -39,6 +40,7 @@ const getAllSemesters = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+// Get Single Semester
 const getSingleSemester = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
   const result = await AcademicSemesterService.getSingleSemester(id);
@@ -51,6 +53,7 @@ const getSingleSemester = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+// Update Semester
 const updateSemester = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
   const updatedData = req.body;

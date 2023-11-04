@@ -74,6 +74,7 @@ const getAllSemesters = async (
 
   if (Object.keys(filtersData).length) {
     andConditions.push({
+      // [ ['title', "Autumn"], ["year", "2025"] ]
       $and: Object.entries(filtersData).map(([field, value]) => ({
         [field]: value,
       })),
@@ -109,6 +110,7 @@ const getAllSemesters = async (
   };
 };
 
+// Get Single Semester
 const getSingleSemester = async (
   id: string,
 ): Promise<IAcademicSemester | null> => {
@@ -116,11 +118,11 @@ const getSingleSemester = async (
   return result;
 };
 
-// Ensure 2: Service Level: Update → Mapping title : code
 const updateSemester = async (
   id: string,
   payload: Partial<IAcademicSemester>,
 ): Promise<IAcademicSemester | null> => {
+  // Ensure 2: Service Level: Update → Mapping title : code
   // 02 != 03
   if (
     payload.title &&

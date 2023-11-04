@@ -1,10 +1,13 @@
+import mongoose from 'mongoose';
 import config from '../../../config/index';
 import ApiError from '../../../errors/ApiError';
-// import { AcademicSemester } from '../academicSemester/academicSemester.model';
+import { AcademicSemester } from '../academicSemester/academicSemester.model';
 import { IStudent } from '../student/student.interface';
 import { IUser } from './user.interface';
 import { User } from './user.model';
-// import { generateStudentId } from './user.utils';
+import { generateStudentId } from './user.utils';
+import { Student } from '../student/student.model';
+import httpStatus from 'http-status';
 
 const createStudent = async (
   student: IStudent,
@@ -18,20 +21,63 @@ const createStudent = async (
   // set role
   user.role = 'student';
 
-  // const academicSemester = await AcademicSemester.findById(
-  //   student.academicSemester,
-  // );
+  const academicSemester = await AcademicSemester.findById(
+    student.academicSemester,
+  );
+  let newUserAllData = null;
+  const session = await mongoose.startSession();
+  try {
+    session.startTransaction();
+    // id generate using generateStudentId function
+    const id = await generateStudentId(academicSemester);
+    user.id = id;
+    student.id = id;
 
-  // //generate student id
-  // const id = await generateStudentId(academicSemester);
+    // new student is array
+    const newStudent = await Student.create([student], { session });
 
-  const createdUser = await User.create(user);
+    if (!newStudent.length) {
+      throw new ApiError(httpStatus.BAD_REQUEST, 'Filed to create Student');
+    }
 
-  if (!createdUser) {
-    throw new ApiError(400, 'Failed to create user!');
+    // set student._id --> into user.student as reference student field
+    user.student = newStudent[0]._id;
+
+    const newUser = await User.create([user], { session });
+
+    if (!newUser.length) {
+      throw new ApiError(httpStatus.BAD_REQUEST, 'Filed to create User');
+    }
+
+    newUserAllData = newUser[0];
+
+    await session.commitTransaction();
+    await session.endSession();
+  } catch (error) {
+    await session.abortTransaction();
+    await session.endSession();
+    throw error;
   }
 
-  return createdUser;
+  // User → reference field student → reference fields academicFaculty, academicDepartment, academicSemester
+
+  if (newUserAllData) {
+    newUserAllData = await User.findOne({ id: newUserAllData.id }).populate({
+      path: 'student',
+      populate: [
+        {
+          path: 'academicSemester',
+        },
+        {
+          path: 'academicDepartment',
+        },
+        {
+          path: 'academicFaculty',
+        },
+      ],
+    });
+  }
+  return newUserAllData;
 };
 
 export const UserService = {
