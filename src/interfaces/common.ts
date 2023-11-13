@@ -1,5 +1,6 @@
 import { IGenericErrorMessage } from './error';
 
+//common pagination interface
 export type IGenericResponse<T> = {
   meta: {
     page: number;

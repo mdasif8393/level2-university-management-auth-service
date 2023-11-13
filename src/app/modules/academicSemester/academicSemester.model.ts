@@ -42,7 +42,7 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
     },
   },
 );
-
+// check given title and year are exists or not in database
 academicSemesterSchema.pre('save', async function (next) {
   const isExists = await AcademicSemester.findOne({
     title: this.title,
