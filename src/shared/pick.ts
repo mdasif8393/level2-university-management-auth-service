@@ -1,9 +1,10 @@
-// ["page", "limit", "sortBy", "sortOrder" ]
 // const paginationOptions = {
 //   page: Number(req.query.page),
 //   limit: Number(req.query.limit),
 //   sortBy: req.query.sortBy,
 //   sortOrder: req.query.sortOrder, };
+
+// ["page", "limit", "sortBy", "sortOrder" ]
 
 const pick = <T extends Record<string, unknown>, k extends keyof T>(
   obj: T,

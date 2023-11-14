@@ -34,7 +34,6 @@ const getAllSemesters = async (
   const { searchTerm, ...filtersData } = filters;
 
   // const andConditions = [
-
   //   {
   //     $or: [
   //       {
@@ -73,8 +72,8 @@ const getAllSemesters = async (
   }
 
   if (Object.keys(filtersData).length) {
+    // [ ['title', "Autumn"], ["year", "2025"] ]
     andConditions.push({
-      // [ ['title', "Autumn"], ["year", "2025"] ]
       $and: Object.entries(filtersData).map(([field, value]) => ({
         [field]: value,
       })),
@@ -84,6 +83,7 @@ const getAllSemesters = async (
   //  get page, limit from paginationOptions
   const { page, limit, skip, sortBy, sortOrder } =
     paginationHelpers.calculatePagination(paginationOptions);
+  //1 2 0 createdAt desc
 
   const sortConditions: { [key: string]: SortOrder } = {};
 
