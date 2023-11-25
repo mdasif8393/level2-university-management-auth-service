@@ -18,4 +18,5 @@ const handleZodError = (error: ZodError): IGenericErrorResponse => {
     errorMessages: errors,
   };
 };
+
 export default handleZodError;

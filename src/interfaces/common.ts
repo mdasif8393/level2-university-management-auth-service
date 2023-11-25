@@ -1,6 +1,5 @@
 import { IGenericErrorMessage } from './error';
 
-//common pagination interface
 export type IGenericResponse<T> = {
   meta: {
     page: number;
@@ -10,7 +9,6 @@ export type IGenericResponse<T> = {
   data: T;
 };
 
-//common error interface
 export type IGenericErrorResponse = {
   statusCode: number;
   message: string;
