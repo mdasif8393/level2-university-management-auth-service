@@ -64,7 +64,7 @@ UserSchema.statics.isPasswordMatched = async function (
   return await bcrypt.compare(givenPassword, savedPassword);
 };
 
-// User.create() / user.save()
+// Use for hash password User.create() / user.save()
 UserSchema.pre('save', async function (next) {
   // hashing user password
   const user = this;

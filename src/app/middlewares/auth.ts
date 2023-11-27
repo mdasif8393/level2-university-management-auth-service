@@ -1,3 +1,4 @@
+// JWT Auth
 import { NextFunction, Request, Response } from 'express';
 import httpStatus from 'http-status';
 import { Secret } from 'jsonwebtoken';
@@ -18,10 +19,11 @@ const auth =
       let verifiedUser = null;
 
       verifiedUser = jwtHelpers.verifyToken(token, config.jwt.secret as Secret);
+      console.log(verifiedUser);
 
       req.user = verifiedUser; // role , userid
 
-      // role diye guard korar jnno
+      // role basis guard
       if (requiredRoles.length && !requiredRoles.includes(verifiedUser.role)) {
         throw new ApiError(httpStatus.FORBIDDEN, 'Forbidden');
       }

@@ -24,7 +24,6 @@ router.get(
   ),
   AcademicFacultyController.getSingleFaculty,
 );
-
 router.patch(
   '/:id',
   validateRequest(AcademicFacultyValidation.updatefacultyZodSchema),
