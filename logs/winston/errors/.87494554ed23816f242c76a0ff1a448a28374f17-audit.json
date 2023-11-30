@@ -6,21 +6,6 @@
     "auditLog": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\.87494554ed23816f242c76a0ff1a448a28374f17-audit.json",
     "files": [
         {
-            "date": 1699890751354,
-            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-13-11-21-error.log",
-            "hash": "64da2b0f8364e6a7ba7d86f1717ad2be635db559a966ddc8cc8d83661ad7f02e"
-        },
-        {
-            "date": 1699933413877,
-            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-14-11-09-error.log",
-            "hash": "97d1f4c6f8b6fb9c924a81a0a1a5df58c8b22f362f30443bf2bb22688c766811"
-        },
-        {
-            "date": 1699934820981,
-            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-14-11-10-error.log",
-            "hash": "790b27db307d09de8b1f1bb537a2f7bb80d572101efc2d11d66a4e39bad65115"
-        },
-        {
             "date": 1700446679745,
             "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-20-11-08-error.log",
             "hash": "c3de2fbefeebc5361eb61a42b5d27ce16133fcbada45107347e994167a272862"
@@ -194,6 +179,41 @@
             "date": 1701099284588,
             "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-27-11-21-error.log",
             "hash": "16a314a37948e31f35083dc669e02c9bd080ffc25dc9a74f857c8b41429d74a8"
+        },
+        {
+            "date": 1701321048096,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-30-11-11-error.log",
+            "hash": "15d2c051a77b348ecab3f58b814e2b3ce6c648e0775ceb908ccf329ab4a7398c"
+        },
+        {
+            "date": 1701333651367,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-30-11-14-error.log",
+            "hash": "639ad70489b7b60362fef4d8c8b34f36928ab4e896680641a4497f046494d1b3"
+        },
+        {
+            "date": 1701334995149,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-30-11-15-error.log",
+            "hash": "a73234aac103f025220efaebafb8627fe738dc124e2f60c580bc2225bb786755"
+        },
+        {
+            "date": 1701338549911,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-30-11-16-error.log",
+            "hash": "49f499eb601548f4338007b3cc81017c383457fc522dfa4d26e7496c16722f96"
+        },
+        {
+            "date": 1701344198632,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-30-11-17-error.log",
+            "hash": "09db55ff89c955df5d2f131e14b45006a5fa0f4c0a1ec1c632ef979142bc6df2"
+        },
+        {
+            "date": 1701345999316,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-30-11-18-error.log",
+            "hash": "237bddf8f3b824c7fd23da94c1af635a5cb945d5bce6c9484afa9df8fab1632f"
+        },
+        {
+            "date": 1701350737414,
+            "name": "C:\\Users\\USER\\Desktop\\level-2\\mongoose\\nosql-backend-braniac\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-30-11-19-error.log",
+            "hash": "c155b728cb369d58aa0a55240eb254e0f7024488afdf0c8c682db84c5ca634a1"
         }
     ],
     "hashType": "sha256"
